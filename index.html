@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABZ Movies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <nav>
+       
+        <button>Home</button>
+        <button data-link="actors" class="scrollTo">Actors<i class="fa-solid fa-chevron-down"></i></i></button>
+        <button data-link="about" class="scrollTo" >About<i class="fa-solid fa-chevron-down"></i></i></button>
+        <button data-link="contact" class="scrollTo" >Contacts<i class="fa-solid fa-chevron-down"></i></i></button>
+    </nav>
+
+    <div class="searchWrapper">
+        <label for="search">Search Actors Name here</label>
+        <input type="search" id="search" data-search>
+    </div>
+
+    <div class="actor-cards" data-actor-cards-container></div>
+    <template data-user-template>
+        <div class="card">
+            <img src="" alt="imageHere" class="img" data-image height="20px" width="40px">
+            <div class="header" data-header>Name</div>
+            <div class="body" data-body>Movie@gmail.com</div>
+        </div>
+    </template>
+
+    <footer>
+        <p class="contact">Contact<br>
+            <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i>
+        </p>
+        
+        
+        <p class="about">About <br> ABZ Movies is about an actor based search web application that users may use to search for </p>
+    </footer>
+    
+    <script src="./src/index.js"></script>
+</body>
+</html>
