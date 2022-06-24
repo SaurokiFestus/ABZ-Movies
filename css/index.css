@@ -23,7 +23,7 @@ body{
     background-color: rgb(10, 185, 173) ;
     height: fit-content;
     color: white;
-    background-image: url("/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
+    background-image: url("/images/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
     background-size: cover;
 }
 
@@ -132,7 +132,7 @@ footer{
 
 .card{
     display: inline;
-    border-radius: 5px;
+    border-radius: 9px;
     border: 2px solid black;
     padding: 2px;
     margin-top: 3px;
