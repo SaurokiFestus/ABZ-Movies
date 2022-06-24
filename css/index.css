@@ -44,7 +44,7 @@ span{
 }
 
 button{
-    padding: 1px;
+    padding: 0px;
     color: #ffffff;
     transition: 0.2s;
     background: none;
