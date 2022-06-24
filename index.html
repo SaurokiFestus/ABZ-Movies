@@ -10,12 +10,12 @@
 </head>
 <body>
     <nav>
-       
-        <button>Home</button>
-        <button data-link="actors" class="scrollTo">Actors<i class="fa-solid fa-chevron-down"></i></i></button>
+        <h1>ABZ Movies</h1>
+        <button><a href="/index.html"></a> Home</button>
         <button data-link="about" class="scrollTo" >About<i class="fa-solid fa-chevron-down"></i></i></button>
         <button data-link="contact" class="scrollTo" >Contacts<i class="fa-solid fa-chevron-down"></i></i></button>
-    </nav>
+        </nav>
+        
 
     <div class="searchWrapper">
         <label for="search">Search Actors Name here</label>
@@ -23,21 +23,21 @@
     </div>
 
     <div class="actor-cards" data-actor-cards-container></div>
+    
     <template data-user-template>
         <div class="card">
-            <img src="" alt="imageHere" class="img" data-image height="20px" width="40px">
+            <!-- <div class="img"><img src="" alt="imageHere" height="20px" width="40px"></div>  -->
             <div class="header" data-header>Name</div>
             <div class="body" data-body>Movie@gmail.com</div>
         </div>
     </template>
-
+    <hr>
     <footer>
-        <p class="contact">Contact<br>
+        <div id="contact">Contact<br>
             <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i>
-        </p>
+        </div>
         
-        
-        <p class="about">About <br> ABZ Movies is about an actor based search web application that users may use to search for </p>
+        <div id="about">About <br> ABZ Movies is about the series breaking bad actor-based search web application that users may use to search for a particular <br>actor using the name and the role played as the filter method</div>
     </footer>
     
     <script src="./src/index.js"></script>
